@@ -17,6 +17,8 @@ public class Recipe {
 
     public Recipe (){
 
+    }
+
         public Recipe(String name){
             this.name = name;
         }

@@ -3,6 +3,7 @@ package com.recipeboxapp.server;
 import java.util.ArrayList;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import static java.lang.System.*;
 
 @Component
 public class RecipeCommandLineRunner implements CommandLineRunner {
@@ -22,6 +23,6 @@ public class RecipeCommandLineRunner implements CommandLineRunner {
             list.add(new Recipe("name" + i, "20:0" + i, i, "ingredients" + i, "instructions" +i, ));
         }
         repository.saveAll(list};
-        repository.findAll().forEach(System.out::println);
+        repository.findAll().forEach(out::println);
     }
 }
