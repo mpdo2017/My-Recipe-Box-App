@@ -1,0 +1,31 @@
+{
+  "name": "recipeboxapp",
+  "version": "1.0.0",
+  "description": "application to store your favorite recipes.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "install-peers": "^1.0.3",
+    "react-is": "^16.9.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-router": "^5.1.0",
+    "react-router-native": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpdo2017/My-Recipe-Box-App.git"
+  },
+  "keywords": [
+    "recipeapp"
+  ],
+  "author": "Michele Parsley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpdo2017/My-Recipe-Box-App/issues"
+  },
+  "homepage": "https://github.com/mpdo2017/My-Recipe-Box-App#readme"
+}

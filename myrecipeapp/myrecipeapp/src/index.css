@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+	background-color: #3a4454;
+}
+ul.navigation a {
+	color: White;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+}
+ul.navigation li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+}
+.active {
+  background-color: #66b3ff;
+}
+label {
+	font-size: 12pt;
+}
+.recipeForm {
+	padding-left: 30px;
+}
+
